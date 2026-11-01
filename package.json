@@ -1,0 +1,42 @@
+{
+  "name": "AZT_OBFUSCATOR",
+  "version": "1.0.0",
+  "description": "AZT_OBFUSCATOR — High-Performance Roblox Luau VM Obfuscator (Lexer, Parser, AST RCRuntime, Polymorphic IR, Multi-Layer RC4, SHA-256 & 512-Bit Checksum, Lazy Constant Pool)",
+  "homepage": "https://aztvn.top",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aztvn/AZT-Obfuscator-Soucre.git"
+  },
+  "bugs": {
+    "url": "https://github.com/aztvn/AZT-Obfuscator-Soucre/issues",
+    "discord": "https://discord.gg/RneWWcMvG2"
+  },
+  "author": "AZT Service (https://aztvn.top | https://discord.gg/RneWWcMvG2)",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "types": "src/index.ts",
+  "bin": {
+    "azt-obf": "dist/cli.js"
+  },
+  "scripts": {
+    "build": "node scripts/build_ts.js",
+    "obfuscate": "node dist/cli.js"
+  },
+  "keywords": [
+    "AZT_OBFUSCATOR",
+    "aztvn",
+    "luau",
+    "roblox",
+    "obfuscator",
+    "vm-obfuscator",
+    "rc4",
+    "sha256",
+    "checksum512",
+    "ast",
+    "ir",
+    "bytecode"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
